@@ -78,7 +78,7 @@ class DatasetLoader:
                 transforms.Resize((64, 64)),
                 transforms.ToTensor(),
             ])
-            data_folder = '/scratch/adit/data/celeba/'
+            data_folder = '/home/ubuntu/own/data'
             train_set = CelebA(data_folder,
                                split='train',
                                download=True,

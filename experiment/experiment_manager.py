@@ -128,7 +128,7 @@ class LVAEExperiment(VAEExperimentManager):
                             '--dataset',
                             type=str,
                             choices=legal_datasets,
-                            default='static_mnist',
+                            default='celeba',
                             metavar='NAME',
                             dest='dataset_name',
                             help="dataset: " + list_options(legal_datasets))
