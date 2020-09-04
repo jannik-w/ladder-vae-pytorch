@@ -89,7 +89,7 @@ class LVAEExperiment(VAEExperimentManager):
 
             # General
             batch_size=64,
-            test_batch_size=1000,
+            test_batch_size=500,
             lr=3e-4,
             train_log_every=10000,
             test_log_every=10000,
